@@ -10,6 +10,11 @@ import SafariServices
 
 class SafariExtensionViewController: SFSafariExtensionViewController {
     
+    override func viewDidLoad() {
+        self.preferredContentSize = NSMakeSize(self.view.frame.size.width, self.view.frame.size.height);
+        super.viewDidLoad()
+    }
+    
     static let shared: SafariExtensionViewController = {
         let shared = SafariExtensionViewController()
         shared.preferredContentSize = NSSize(width:320, height:240)

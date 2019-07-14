@@ -10,6 +10,9 @@ import SafariServices
 
 class SafariExtensionViewController: SFSafariExtensionViewController {
     
+    @IBOutlet weak var unicodeTextField: NSTextField!
+    @IBOutlet weak var zawgyiTextField: NSTextField!
+    
     override func viewDidLoad() {
         self.preferredContentSize = NSMakeSize(self.view.frame.size.width, self.view.frame.size.height);
         super.viewDidLoad()

@@ -7,7 +7,9 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SafariExtensionViewController" customModule="ZUfari_Extension" customModuleProvider="target">
             <connections>
+                <outlet property="unicodeTextField" destination="8Ed-ef-Z0E" id="IXM-s2-hCK"/>
                 <outlet property="view" destination="c22-O7-iKe" id="vwT-Xx-Aiz"/>
+                <outlet property="zawgyiTextField" destination="mfF-hQ-PnG" id="iG8-jP-f1L"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>

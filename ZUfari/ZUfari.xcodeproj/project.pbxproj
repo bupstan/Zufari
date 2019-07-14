@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C413614022DB86B300691DB9 /* ZufariToolBar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */; };
 		C4AF251922DB0D6C00D3CCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */; };
 		C4AF251B22DB0D6D00D3CCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */; };
 		C4AF251E22DB0D6D00D3CCFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AF251C22DB0D6D00D3CCFE /* MainMenu.xib */; };
@@ -15,7 +16,6 @@
 		C4AF253222DB0E0000D3CCFE /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF253122DB0E0000D3CCFE /* SafariExtensionViewController.swift */; };
 		C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253322DB0E0000D3CCFE /* SafariExtensionViewController.xib */; };
 		C4AF253822DB0E0000D3CCFE /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253722DB0E0000D3CCFE /* script.js */; };
-		C4AF253A22DB0E0000D3CCFE /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253922DB0E0000D3CCFE /* ToolbarItemIcon.pdf */; };
 		C4AF253E22DB0E0000D3CCFE /* ZUfari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4AF252A22DB0E0000D3CCFE /* ZUfari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C4AF254422DB0F6500D3CCFE /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF254322DB0F6500D3CCFE /* Rabbit.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZufariToolBar.pdf; sourceTree = "<group>"; };
 		C4AF251522DB0D6C00D3CCFE /* ZUfari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZUfari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		C4AF253422DB0E0000D3CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		C4AF253622DB0E0000D3CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AF253722DB0E0000D3CCFE /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		C4AF253922DB0E0000D3CCFE /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		C4AF253B22DB0E0000D3CCFE /* ZUfari_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZUfari_Extension.entitlements; sourceTree = "<group>"; };
 		C4AF254322DB0F6500D3CCFE /* Rabbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rabbit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +130,7 @@
 				C4AF253322DB0E0000D3CCFE /* SafariExtensionViewController.xib */,
 				C4AF253622DB0E0000D3CCFE /* Info.plist */,
 				C4AF253722DB0E0000D3CCFE /* script.js */,
-				C4AF253922DB0E0000D3CCFE /* ToolbarItemIcon.pdf */,
+				C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */,
 				C4AF253B22DB0E0000D3CCFE /* ZUfari_Extension.entitlements */,
 			);
 			path = "ZUfari Extension";
@@ -226,7 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AF253A22DB0E0000D3CCFE /* ToolbarItemIcon.pdf in Resources */,
+				C413614022DB86B300691DB9 /* ZufariToolBar.pdf in Resources */,
 				C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */,
 				C4AF253822DB0E0000D3CCFE /* script.js in Resources */,
 			);

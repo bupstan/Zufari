@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ATSApplicationFontsPath</key>
+	<string>Fonts</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Zawgyi-One.ttf</string>
+		<string>Pyidaungsu.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -62,9 +69,5 @@
 	<string>Copyright © 2019 Ye Wai Yan. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
 	<string>This is a Safari Extension for quickly converting between Zawgyi and Unicode.</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string></string>
-	</array>
 </dict>
 </plist>

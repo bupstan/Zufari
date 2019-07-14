@@ -7,23 +7,35 @@
 //
 
 import SafariServices
+import AppKit
 
 class SafariExtensionViewController: SFSafariExtensionViewController {
-    @IBOutlet var unicodeTextView: NSTextView!
-    @IBOutlet var zawgyiTextView: NSTextView!
+    @IBOutlet var unicodeTextView: PlaceholderTextView!
+    @IBOutlet var zawgyiTextView: PlaceholderTextView!
+    
+    var defaultTextColor: NSColor!
+    var unicodeFont: NSFont!
+    var zawgyiFont: NSFont!
     
     override func viewDidLoad() {
         self.preferredContentSize = NSMakeSize(self.view.frame.size.width, self.view.frame.size.height);
+        
+        defaultTextColor = unicodeTextView.textColor
+        unicodeFont = NSFont(name: "Pyidaungsu", size: 13)
+        zawgyiFont = NSFont(name: "Zawgyi-One", size: 13)
+
         unicodeTextView.delegate = self
-        unicodeTextView.layer?.cornerRadius = 8
+        var placeholderString = NSAttributedString(string: "Insert Unicode", attributes: [NSAttributedString.Key.foregroundColor:defaultTextColor.withAlphaComponent(0.8), NSAttributedString.Key.font:unicodeFont as Any])
+        unicodeTextView.placeholderAttributedString = placeholderString
         unicodeTextView.textContainerInset = NSSize(width: 10, height: 10)
         
         
         zawgyiTextView.delegate = self
-        zawgyiTextView.superview?.superview?.layer?.masksToBounds = true
-        zawgyiTextView.superview?.superview?.layer?.cornerRadius = 8
+        placeholderString = NSAttributedString(string: "Insert Zawgyi", attributes: [NSAttributedString.Key.foregroundColor:defaultTextColor.withAlphaComponent(0.8), NSAttributedString.Key.font:zawgyiFont as Any])
+        zawgyiTextView.placeholderAttributedString = placeholderString
         zawgyiTextView.textContainerInset = NSSize(width: 10, height: 10)
         
+
         super.viewDidLoad()
     }
     
@@ -38,8 +50,13 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
 extension SafariExtensionViewController: NSTextViewDelegate {
     func textDidChange(_ notification: Notification) {
         guard let editor = notification.object as? NSTextView else { return }
-        if (editor == zawgyiTextView) {
-            zawgyiTextView.string = Rabbit.uni2zg("")
+        if (editor.string == "") {
+            editor.textColor = defaultTextColor
+            if (editor == unicodeTextView) {
+                editor.font = unicodeFont
+            } else {
+                editor.font = zawgyiFont
+            }
         }
     }
 }

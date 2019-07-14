@@ -9,15 +9,21 @@
 /* Begin PBXBuildFile section */
 		C413614022DB86B300691DB9 /* ZufariToolBar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */; };
 		C413614222DB9A2200691DB9 /* ZUConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413614122DB9A2200691DB9 /* ZUConvert.swift */; };
+		C413614B22DBA8F100691DB9 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413614A22DBA8F100691DB9 /* PlaceholderTextView.swift */; };
 		C4AF251922DB0D6C00D3CCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */; };
 		C4AF251B22DB0D6D00D3CCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */; };
-		C4AF251E22DB0D6D00D3CCFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AF251C22DB0D6D00D3CCFE /* MainMenu.xib */; };
 		C4AF252D22DB0E0000D3CCFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AF252C22DB0E0000D3CCFE /* Cocoa.framework */; };
 		C4AF253022DB0E0000D3CCFE /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF252F22DB0E0000D3CCFE /* SafariExtensionHandler.swift */; };
 		C4AF253222DB0E0000D3CCFE /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF253122DB0E0000D3CCFE /* SafariExtensionViewController.swift */; };
 		C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253322DB0E0000D3CCFE /* SafariExtensionViewController.xib */; };
 		C4AF253822DB0E0000D3CCFE /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253722DB0E0000D3CCFE /* script.js */; };
 		C4AF253E22DB0E0000D3CCFE /* ZUfari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4AF252A22DB0E0000D3CCFE /* ZUfari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4F0FFD522DBB30B00F76641 /* Pyidaungsu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD422DBB2FC00F76641 /* Pyidaungsu.ttf */; };
+		C4F0FFD622DBB30B00F76641 /* Zawgyi-One.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD322DBB2FC00F76641 /* Zawgyi-One.ttf */; };
+		C4F0FFD722DBB44F00F76641 /* Pyidaungsu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD422DBB2FC00F76641 /* Pyidaungsu.ttf */; };
+		C4F0FFD822DBB44F00F76641 /* Zawgyi-One.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD322DBB2FC00F76641 /* Zawgyi-One.ttf */; };
+		C4F0FFF622DBB6B400F76641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFF522DBB6B400F76641 /* Main.storyboard */; };
+		C4F0FFF822DBBA2D00F76641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0FFF722DBBA2D00F76641 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +53,10 @@
 /* Begin PBXFileReference section */
 		C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZufariToolBar.pdf; sourceTree = "<group>"; };
 		C413614122DB9A2200691DB9 /* ZUConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZUConvert.swift; sourceTree = "<group>"; };
+		C413614A22DBA8F100691DB9 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		C4AF251522DB0D6C00D3CCFE /* ZUfari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZUfari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4AF251D22DB0D6D00D3CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C4AF251F22DB0D6D00D3CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AF252022DB0D6D00D3CCFE /* ZUfari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZUfari.entitlements; sourceTree = "<group>"; };
 		C4AF252A22DB0E0000D3CCFE /* ZUfari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZUfari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +67,10 @@
 		C4AF253622DB0E0000D3CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AF253722DB0E0000D3CCFE /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		C4AF253B22DB0E0000D3CCFE /* ZUfari_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZUfari_Extension.entitlements; sourceTree = "<group>"; };
+		C4F0FFD322DBB2FC00F76641 /* Zawgyi-One.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zawgyi-One.ttf"; sourceTree = "<group>"; };
+		C4F0FFD422DBB2FC00F76641 /* Pyidaungsu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pyidaungsu.ttf; sourceTree = "<group>"; };
+		C4F0FFF522DBB6B400F76641 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C4F0FFF722DBBA2D00F76641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C413614922DBA0CE00691DB9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4F0FFD422DBB2FC00F76641 /* Pyidaungsu.ttf */,
+				C4F0FFD322DBB2FC00F76641 /* Zawgyi-One.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C4AF250C22DB0D6C00D3CCFE = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */,
+				C4F0FFF722DBBA2D00F76641 /* ViewController.swift */,
 				C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */,
-				C4AF251C22DB0D6D00D3CCFE /* MainMenu.xib */,
+				C4F0FFF522DBB6B400F76641 /* Main.storyboard */,
 				C4AF251F22DB0D6D00D3CCFE /* Info.plist */,
 				C4AF252022DB0D6D00D3CCFE /* ZUfari.entitlements */,
 			);
@@ -124,7 +144,9 @@
 		C4AF252E22DB0E0000D3CCFE /* ZUfari Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C413614922DBA0CE00691DB9 /* Fonts */,
 				C413614122DB9A2200691DB9 /* ZUConvert.swift */,
+				C413614A22DBA8F100691DB9 /* PlaceholderTextView.swift */,
 				C4AF252F22DB0E0000D3CCFE /* SafariExtensionHandler.swift */,
 				C4AF253122DB0E0000D3CCFE /* SafariExtensionViewController.swift */,
 				C4AF253322DB0E0000D3CCFE /* SafariExtensionViewController.xib */,
@@ -217,8 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F0FFD722DBB44F00F76641 /* Pyidaungsu.ttf in Resources */,
+				C4F0FFD822DBB44F00F76641 /* Zawgyi-One.ttf in Resources */,
 				C4AF251B22DB0D6D00D3CCFE /* Assets.xcassets in Resources */,
-				C4AF251E22DB0D6D00D3CCFE /* MainMenu.xib in Resources */,
+				C4F0FFF622DBB6B400F76641 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F0FFD522DBB30B00F76641 /* Pyidaungsu.ttf in Resources */,
+				C4F0FFD622DBB30B00F76641 /* Zawgyi-One.ttf in Resources */,
 				C413614022DB86B300691DB9 /* ZufariToolBar.pdf in Resources */,
 				C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */,
 				C4AF253822DB0E0000D3CCFE /* script.js in Resources */,
@@ -239,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F0FFF822DBBA2D00F76641 /* ViewController.swift in Sources */,
 				C4AF251922DB0D6C00D3CCFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +277,7 @@
 				C4AF253222DB0E0000D3CCFE /* SafariExtensionViewController.swift in Sources */,
 				C413614222DB9A2200691DB9 /* ZUConvert.swift in Sources */,
 				C4AF253022DB0E0000D3CCFE /* SafariExtensionHandler.swift in Sources */,
+				C413614B22DBA8F100691DB9 /* PlaceholderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C4AF251C22DB0D6D00D3CCFE /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4AF251D22DB0D6D00D3CCFE /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		C4AF253322DB0E0000D3CCFE /* SafariExtensionViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

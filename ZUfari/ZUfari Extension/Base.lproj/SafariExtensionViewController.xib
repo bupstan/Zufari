@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="290" height="124"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="Rtv-kK-b0E">
+                            <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="Rtv-kK-b0E" customClass="PlaceholderTextView" customModule="ZUfari_Extension" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="290" height="124"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -59,7 +59,7 @@
                                     <fragment content="Insert Unicode">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <font key="NSFont" size="13" name="Pyidaungsu"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -87,7 +87,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="290" height="125"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="5ee-8p-YEr">
+                            <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="5ee-8p-YEr" customClass="PlaceholderTextView" customModule="ZUfari_Extension" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="290" height="125"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -98,12 +98,12 @@
                                     <fragment content="Insert Zawgyi">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <font key="NSFont" size="13" name="Zawgyi-One"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="insertionPointColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             </textView>
                         </subviews>
                     </clipView>

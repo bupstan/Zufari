@@ -13,30 +13,30 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     @IBOutlet var unicodeTextView: PlaceholderTextView!
     @IBOutlet var zawgyiTextView: PlaceholderTextView!
     
-    var defaultTextColor: NSColor!
+    var defaultTextColor: NSColor = NSColor(red: 1, green: 1, blue: 1, alpha: 0.85)
     var unicodeFont: NSFont!
     var zawgyiFont: NSFont!
     
     override func viewDidLoad() {
         self.preferredContentSize = NSMakeSize(self.view.frame.size.width, self.view.frame.size.height);
         
-        defaultTextColor = unicodeTextView.textColor
-        unicodeFont = NSFont(name: "Pyidaungsu", size: 13)
-        zawgyiFont = NSFont(name: "Zawgyi-One", size: 13)
-        
-        unicodeTextView.font = unicodeFont
-        zawgyiTextView.font = zawgyiFont
-
+//        defaultTextColor = unicodeTextView.textColor
+//        unicodeFont = NSFont(name: "Pyidaungsu", size: 13)
+//        zawgyiFont = NSFont(name: "Zawgyi-One", size: 13)
+//
+//        unicodeTextView.font = unicodeFont
+//        zawgyiTextView.font = zawgyiFont
+//
         unicodeTextView.delegate = self
-        var placeholderString = NSAttributedString(string: "Insert Unicode", attributes: [NSAttributedString.Key.foregroundColor:defaultTextColor.withAlphaComponent(0.8), NSAttributedString.Key.font:unicodeFont as Any])
-        unicodeTextView.placeholderAttributedString = placeholderString
-        unicodeTextView.textContainerInset = NSSize(width: 10, height: 10)
-        
-        
+//        var placeholderString = NSAttributedString(string: "Insert Unicode", attributes: [NSAttributedString.Key.foregroundColor:defaultTextColor.withAlphaComponent(0.8), NSAttributedString.Key.font:unicodeFont as Any])
+//        unicodeTextView.placeholderAttributedString = placeholderString
+//        unicodeTextView.textContainerInset = NSSize(width: 10, height: 10)
+//
+//
         zawgyiTextView.delegate = self
-        placeholderString = NSAttributedString(string: "Insert Zawgyi", attributes: [NSAttributedString.Key.foregroundColor:defaultTextColor.withAlphaComponent(0.8), NSAttributedString.Key.font:zawgyiFont as Any])
-        zawgyiTextView.placeholderAttributedString = placeholderString
-        zawgyiTextView.textContainerInset = NSSize(width: 10, height: 10)
+//        placeholderString = NSAttributedString(string: "Insert Zawgyi", attributes: [NSAttributedString.Key.foregroundColor:defaultTextColor.withAlphaComponent(0.8), NSAttributedString.Key.font:zawgyiFont as Any])
+//        zawgyiTextView.placeholderAttributedString = placeholderString
+//        zawgyiTextView.textContainerInset = NSSize(width: 10, height: 10)
         
 
         super.viewDidLoad()
@@ -56,20 +56,20 @@ extension SafariExtensionViewController: NSTextViewDelegate {
         if (editor.string == "") {
             editor.textColor = defaultTextColor
             if (editor == unicodeTextView) {
-                unicodeTextView.font = unicodeFont
+//                unicodeTextView.font = unicodeFont
             } else {
-                zawgyiTextView.font = zawgyiFont
+//                zawgyiTextView.font = zawgyiFont
             }
+        }
+        
+        if (editor == unicodeTextView) {
+            zawgyiTextView.string = ZUConvert.convertToZawgyi(editor.string)
+            //                zawgyiTextView.font = zawgyiFont
+            
         } else {
-            if (editor == unicodeTextView) {
-                zawgyiTextView.string = ZUConvert.convertToZawgyi(editor.string)
-                zawgyiTextView.font = zawgyiFont
-
-            } else {
-                unicodeTextView.string = ZUConvert.convertToUnicode(editor.string)
-                unicodeTextView.font = unicodeFont
-
-            }
+            unicodeTextView.string = ZUConvert.convertToUnicode(editor.string)
+            //                unicodeTextView.font = unicodeFont
+            
         }
     }
 }

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ZUfari.xcodeproj">
+      location = "self:/Users/bupstan/Work/Z-U-Safari/ZUfari/Zufari.xcodeproj">
    </FileRef>
 </Workspace>

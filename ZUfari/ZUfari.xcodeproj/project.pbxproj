@@ -17,7 +17,7 @@
 		C4AF253222DB0E0000D3CCFE /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF253122DB0E0000D3CCFE /* SafariExtensionViewController.swift */; };
 		C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253322DB0E0000D3CCFE /* SafariExtensionViewController.xib */; };
 		C4AF253822DB0E0000D3CCFE /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253722DB0E0000D3CCFE /* script.js */; };
-		C4AF253E22DB0E0000D3CCFE /* ZUfari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4AF252A22DB0E0000D3CCFE /* ZUfari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4AF253E22DB0E0000D3CCFE /* Zufari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4AF252A22DB0E0000D3CCFE /* Zufari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C4F0FFD522DBB30B00F76641 /* Pyidaungsu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD422DBB2FC00F76641 /* Pyidaungsu.ttf */; };
 		C4F0FFD622DBB30B00F76641 /* Zawgyi-One.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD322DBB2FC00F76641 /* Zawgyi-One.ttf */; };
 		C4F0FFD722DBB44F00F76641 /* Pyidaungsu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD422DBB2FC00F76641 /* Pyidaungsu.ttf */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C4AF253E22DB0E0000D3CCFE /* ZUfari Extension.appex in Embed App Extensions */,
+				C4AF253E22DB0E0000D3CCFE /* Zufari Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,12 +54,12 @@
 		C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZufariToolBar.pdf; sourceTree = "<group>"; };
 		C413614122DB9A2200691DB9 /* ZUConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZUConvert.swift; sourceTree = "<group>"; };
 		C413614A22DBA8F100691DB9 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
-		C4AF251522DB0D6C00D3CCFE /* ZUfari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZUfari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AF251522DB0D6C00D3CCFE /* Zufari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zufari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4AF251F22DB0D6D00D3CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AF252022DB0D6D00D3CCFE /* ZUfari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZUfari.entitlements; sourceTree = "<group>"; };
-		C4AF252A22DB0E0000D3CCFE /* ZUfari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZUfari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AF252A22DB0E0000D3CCFE /* Zufari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Zufari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AF252C22DB0E0000D3CCFE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C4AF252F22DB0E0000D3CCFE /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		C4AF253122DB0E0000D3CCFE /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 		C4AF251622DB0D6C00D3CCFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4AF251522DB0D6C00D3CCFE /* ZUfari.app */,
-				C4AF252A22DB0E0000D3CCFE /* ZUfari Extension.appex */,
+				C4AF251522DB0D6C00D3CCFE /* Zufari.app */,
+				C4AF252A22DB0E0000D3CCFE /* Zufari Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4AF251422DB0D6C00D3CCFE /* ZUfari */ = {
+		C4AF251422DB0D6C00D3CCFE /* Zufari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4AF252322DB0D6D00D3CCFE /* Build configuration list for PBXNativeTarget "ZUfari" */;
+			buildConfigurationList = C4AF252322DB0D6D00D3CCFE /* Build configuration list for PBXNativeTarget "Zufari" */;
 			buildPhases = (
 				C4AF251122DB0D6C00D3CCFE /* Sources */,
 				C4AF251222DB0D6C00D3CCFE /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				C4AF253D22DB0E0000D3CCFE /* PBXTargetDependency */,
 			);
-			name = ZUfari;
+			name = Zufari;
 			productName = ZUfari;
-			productReference = C4AF251522DB0D6C00D3CCFE /* ZUfari.app */;
+			productReference = C4AF251522DB0D6C00D3CCFE /* Zufari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4AF252922DB0E0000D3CCFE /* ZUfari Extension */ = {
+		C4AF252922DB0E0000D3CCFE /* Zufari Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4AF253F22DB0E0000D3CCFE /* Build configuration list for PBXNativeTarget "ZUfari Extension" */;
+			buildConfigurationList = C4AF253F22DB0E0000D3CCFE /* Build configuration list for PBXNativeTarget "Zufari Extension" */;
 			buildPhases = (
 				C4AF252622DB0E0000D3CCFE /* Sources */,
 				C4AF252722DB0E0000D3CCFE /* Frameworks */,
@@ -192,9 +192,9 @@
 			);
 			dependencies = (
 			);
-			name = "ZUfari Extension";
+			name = "Zufari Extension";
 			productName = "ZUfari Extension";
-			productReference = C4AF252A22DB0E0000D3CCFE /* ZUfari Extension.appex */;
+			productReference = C4AF252A22DB0E0000D3CCFE /* Zufari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4AF251022DB0D6C00D3CCFE /* Build configuration list for PBXProject "ZUfari" */;
+			buildConfigurationList = C4AF251022DB0D6C00D3CCFE /* Build configuration list for PBXProject "Zufari" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4AF251422DB0D6C00D3CCFE /* ZUfari */,
-				C4AF252922DB0E0000D3CCFE /* ZUfari Extension */,
+				C4AF251422DB0D6C00D3CCFE /* Zufari */,
+				C4AF252922DB0E0000D3CCFE /* Zufari Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 /* Begin PBXTargetDependency section */
 		C4AF253D22DB0E0000D3CCFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4AF252922DB0E0000D3CCFE /* ZUfari Extension */;
+			target = C4AF252922DB0E0000D3CCFE /* Zufari Extension */;
 			targetProxy = C4AF253C22DB0E0000D3CCFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -499,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4AF251022DB0D6C00D3CCFE /* Build configuration list for PBXProject "ZUfari" */ = {
+		C4AF251022DB0D6C00D3CCFE /* Build configuration list for PBXProject "Zufari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4AF252122DB0D6D00D3CCFE /* Debug */,
@@ -508,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4AF252322DB0D6D00D3CCFE /* Build configuration list for PBXNativeTarget "ZUfari" */ = {
+		C4AF252322DB0D6D00D3CCFE /* Build configuration list for PBXNativeTarget "Zufari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4AF252422DB0D6D00D3CCFE /* Debug */,
@@ -517,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4AF253F22DB0E0000D3CCFE /* Build configuration list for PBXNativeTarget "ZUfari Extension" */ = {
+		C4AF253F22DB0E0000D3CCFE /* Build configuration list for PBXNativeTarget "Zufari Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4AF254022DB0E0000D3CCFE /* Debug */,

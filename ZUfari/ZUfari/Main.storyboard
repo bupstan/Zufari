@@ -417,45 +417,73 @@
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--View Controller-->
+        <!--Zufari-->
         <scene sceneID="gvS-Ks-57S">
             <objects>
-                <viewController id="mId-52-W2e" customClass="ViewController" customModule="ZUfari" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Zufari" id="mId-52-W2e" customClass="ViewController" customModule="ZUfari" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="NAV-h3-zOB">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="269"/>
+                        <rect key="frame" x="0.0" y="0.0" width="581" height="269"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-Hd-osy">
-                                <rect key="frame" x="62" y="210" width="357" height="29"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Zufari - font converter as extension " id="ydh-uY-PMu">
-                                    <font key="font" metaFont="system" size="24"/>
+                                <rect key="frame" x="73" y="210" width="436" height="29"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Zufari - font converter as an extension " id="ydh-uY-PMu">
+                                    <font key="font" metaFont="systemBold" size="24"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DVb-Jq-qbG">
-                                <rect key="frame" x="89" y="125" width="302" height="19"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Customizations will be implemented here" id="SZ0-gg-G5v">
-                                    <font key="font" metaFont="system" size="16"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
+                            <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mrs-cz-aTO">
+                                <rect key="frame" x="40" y="58" width="501" height="122"/>
+                                <subviews>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DVb-Jq-qbG">
+                                        <rect key="frame" x="-2" y="103" width="130" height="19"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Getting Started:" id="SZ0-gg-G5v">
+                                            <font key="font" metaFont="systemBold" size="16"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hsd-Gd-wNs">
+                                        <rect key="frame" x="-2" y="0.0" width="505" height="95"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" id="G4w-xD-N7p">
+                                            <font key="font" metaFont="system" size="16"/>
+                                            <string key="title">• Open Safari
+• Go to Preferences - ⌘,
+• Go to Extensions tab
+• Tick the checkbox beside "Zufari Extension"
+• The extension icon will now show on the left side of the address bar</string>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="Mrs-cz-aTO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NAV-h3-zOB" secondAttribute="leading" constant="40" id="77m-VW-45O"/>
                             <constraint firstItem="BxO-Hd-osy" firstAttribute="top" secondItem="NAV-h3-zOB" secondAttribute="top" constant="30" id="8HU-iY-FrE"/>
-                            <constraint firstItem="DVb-Jq-qbG" firstAttribute="top" secondItem="BxO-Hd-osy" secondAttribute="bottom" constant="66" id="UAU-ai-AYz"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mrs-cz-aTO" secondAttribute="trailing" constant="40" id="Jtx-N3-uWO"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BxO-Hd-osy" secondAttribute="trailing" constant="50" id="VFl-rf-sTI"/>
-                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DVb-Jq-qbG" secondAttribute="bottom" constant="125" id="Vzv-JO-aCV"/>
                             <constraint firstItem="BxO-Hd-osy" firstAttribute="centerX" secondItem="NAV-h3-zOB" secondAttribute="centerX" id="Yav-10-ffT"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Mrs-cz-aTO" secondAttribute="bottom" constant="40" id="gZm-3s-g8m"/>
                             <constraint firstItem="BxO-Hd-osy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NAV-h3-zOB" secondAttribute="leading" constant="50" id="ieY-Ze-BCK"/>
-                            <constraint firstItem="DVb-Jq-qbG" firstAttribute="centerX" secondItem="NAV-h3-zOB" secondAttribute="centerX" id="vch-PR-A0o"/>
+                            <constraint firstItem="Mrs-cz-aTO" firstAttribute="top" secondItem="BxO-Hd-osy" secondAttribute="bottom" constant="30" id="kxb-rk-1YC"/>
+                            <constraint firstItem="Mrs-cz-aTO" firstAttribute="centerX" secondItem="NAV-h3-zOB" secondAttribute="centerX" id="lZV-fm-LZy"/>
                         </constraints>
                     </view>
                 </viewController>
                 <customObject id="e6Z-at-yNq" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="103" y="274"/>
+            <point key="canvasLocation" x="132.5" y="273.5"/>
         </scene>
     </scenes>
 </document>

@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4AF252922DB0E0000D3CCFE"
-               BuildableName = "ZUfari Extension.appex"
-               BlueprintName = "ZUfari Extension"
-               ReferencedContainer = "container:ZUfari.xcodeproj">
+               BuildableName = "Zufari Extension.appex"
+               BlueprintName = "Zufari Extension"
+               ReferencedContainer = "container:Zufari.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4AF251422DB0D6C00D3CCFE"
-               BuildableName = "ZUfari.app"
-               BlueprintName = "ZUfari"
-               ReferencedContainer = "container:ZUfari.xcodeproj">
+               BuildableName = "Zufari.app"
+               BlueprintName = "Zufari"
+               ReferencedContainer = "container:Zufari.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4AF252922DB0E0000D3CCFE"
-            BuildableName = "ZUfari Extension.appex"
-            BlueprintName = "ZUfari Extension"
-            ReferencedContainer = "container:ZUfari.xcodeproj">
+            BuildableName = "Zufari Extension.appex"
+            BlueprintName = "Zufari Extension"
+            ReferencedContainer = "container:Zufari.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,16 +67,20 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "0"
+         BundleIdentifier = "com.apple.Safari"
+         RemotePath = "/Applications/Safari.app">
+      </RemoteRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4AF251422DB0D6C00D3CCFE"
-            BuildableName = "ZUfari.app"
-            BlueprintName = "ZUfari"
-            ReferencedContainer = "container:ZUfari.xcodeproj">
+            BuildableName = "Zufari.app"
+            BlueprintName = "Zufari"
+            ReferencedContainer = "container:Zufari.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -92,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4AF251422DB0D6C00D3CCFE"
-            BuildableName = "ZUfari.app"
-            BlueprintName = "ZUfari"
-            ReferencedContainer = "container:ZUfari.xcodeproj">
+            BuildableName = "Zufari.app"
+            BlueprintName = "Zufari"
+            ReferencedContainer = "container:Zufari.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

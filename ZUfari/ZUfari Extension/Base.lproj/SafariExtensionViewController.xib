@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Iy-aV-wGF">
-                    <rect key="frame" x="144" y="363" width="42" height="17"/>
+                    <rect key="frame" x="144" y="368" width="42" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="ZUfari" id="2Ec-kd-q2K">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -27,7 +27,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="toh-uY-gSi">
-                    <rect key="frame" x="18" y="326" width="55" height="17"/>
+                    <rect key="frame" x="18" y="336" width="55" height="17"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Unicode" id="b9U-CB-jwT">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -35,7 +35,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ue4-fO-6fM">
-                    <rect key="frame" x="18" y="155" width="47" height="17"/>
+                    <rect key="frame" x="18" y="160" width="47" height="17"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Zawgyi" id="izX-U0-rZc">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -43,37 +43,31 @@
                     </textFieldCell>
                 </textField>
                 <scrollView verticalHuggingPriority="1" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pX-9e-FvO" userLabel="Unicode Text View">
-                    <rect key="frame" x="20" y="192" width="290" height="124"/>
+                    <rect key="frame" x="20" y="197" width="290" height="129"/>
                     <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="lg1-Wm-Yj1">
-                        <rect key="frame" x="0.0" y="0.0" width="290" height="124"/>
+                        <rect key="frame" x="0.0" y="0.0" width="290" height="129"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="Rtv-kK-b0E" customClass="PlaceholderTextView" customModule="ZUfari_Extension" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="290" height="124"/>
+                                <rect key="frame" x="0.0" y="0.0" width="290" height="129"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                 <color key="backgroundColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="minSize" width="290" height="124"/>
+                                <size key="minSize" width="290" height="129"/>
                                 <size key="maxSize" width="290" height="10000000"/>
-                                <attributedString key="textStorage">
-                                    <fragment content="Insert Unicode">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="13" name="Pyidaungsu"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
                                 <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             </textView>
                         </subviews>
                     </clipView>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="129" id="yW7-h8-2nG"/>
+                    </constraints>
                     <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="ahd-sj-slv">
                         <rect key="frame" x="-100" y="-100" width="240" height="16"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                     <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="Qzf-NV-Kx2">
-                        <rect key="frame" x="274" y="0.0" width="16" height="124"/>
+                        <rect key="frame" x="274" y="0.0" width="16" height="129"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                     <userDefinedRuntimeAttributes>
@@ -82,37 +76,31 @@
                     </userDefinedRuntimeAttributes>
                 </scrollView>
                 <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhx-Im-DdB" userLabel="Zawgyi Text View">
-                    <rect key="frame" x="20" y="20" width="290" height="125"/>
+                    <rect key="frame" x="20" y="20" width="290" height="130"/>
                     <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="FQQ-HX-9lM">
-                        <rect key="frame" x="0.0" y="0.0" width="290" height="125"/>
+                        <rect key="frame" x="0.0" y="0.0" width="290" height="130"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="5ee-8p-YEr" customClass="PlaceholderTextView" customModule="ZUfari_Extension" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="290" height="125"/>
+                                <rect key="frame" x="0.0" y="0.0" width="290" height="130"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                 <color key="backgroundColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="minSize" width="290" height="125"/>
+                                <size key="minSize" width="290" height="130"/>
                                 <size key="maxSize" width="290" height="10000000"/>
-                                <attributedString key="textStorage">
-                                    <fragment content="Insert Zawgyi">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="13" name="Zawgyi-One"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
                                 <color key="insertionPointColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             </textView>
                         </subviews>
                     </clipView>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="PUP-MG-027"/>
+                    </constraints>
                     <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="Gji-gV-ehv">
                         <rect key="frame" x="-100" y="-100" width="240" height="16"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                     <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="kUm-9t-lpI">
-                        <rect key="frame" x="274" y="0.0" width="16" height="125"/>
+                        <rect key="frame" x="274" y="0.0" width="16" height="130"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                 </scrollView>
@@ -122,15 +110,14 @@
                 <constraint firstItem="fhx-Im-DdB" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="9iU-BR-ZWl"/>
                 <constraint firstAttribute="bottom" secondItem="fhx-Im-DdB" secondAttribute="bottom" constant="20" id="BYb-dQ-rfN"/>
                 <constraint firstItem="fhx-Im-DdB" firstAttribute="top" secondItem="ue4-fO-6fM" secondAttribute="bottom" constant="10" id="JME-T8-FVc"/>
-                <constraint firstItem="4Iy-aV-wGF" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="fd3-Ad-Ft8"/>
+                <constraint firstItem="4Iy-aV-wGF" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="15" id="fd3-Ad-Ft8"/>
                 <constraint firstItem="ue4-fO-6fM" firstAttribute="top" secondItem="1pX-9e-FvO" secondAttribute="bottom" constant="20" id="fgJ-CG-cQd"/>
                 <constraint firstItem="1pX-9e-FvO" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="gJb-b5-mmv"/>
                 <constraint firstItem="ue4-fO-6fM" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="hmB-0B-B6N"/>
-                <constraint firstItem="toh-uY-gSi" firstAttribute="top" secondItem="4Iy-aV-wGF" secondAttribute="bottom" constant="20" id="ib9-KN-YjV"/>
+                <constraint firstItem="toh-uY-gSi" firstAttribute="top" secondItem="4Iy-aV-wGF" secondAttribute="bottom" constant="15" id="ib9-KN-YjV"/>
                 <constraint firstItem="1pX-9e-FvO" firstAttribute="top" secondItem="toh-uY-gSi" secondAttribute="bottom" constant="10" id="jFs-7f-Ald"/>
                 <constraint firstAttribute="trailing" secondItem="1pX-9e-FvO" secondAttribute="trailing" constant="20" id="pYw-CC-jdd"/>
                 <constraint firstItem="toh-uY-gSi" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="t7V-r6-K0i"/>
-                <constraint firstItem="1pX-9e-FvO" firstAttribute="height" secondItem="5ee-8p-YEr" secondAttribute="height" id="vET-zy-dk4"/>
                 <constraint firstItem="4Iy-aV-wGF" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="vpO-xi-76y"/>
             </constraints>
             <point key="canvasLocation" x="139" y="290"/>

@@ -23,6 +23,9 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
         defaultTextColor = unicodeTextView.textColor
         unicodeFont = NSFont(name: "Pyidaungsu", size: 13)
         zawgyiFont = NSFont(name: "Zawgyi-One", size: 13)
+        
+        unicodeTextView.font = unicodeFont
+        zawgyiTextView.font = zawgyiFont
 
         unicodeTextView.delegate = self
         var placeholderString = NSAttributedString(string: "Insert Unicode", attributes: [NSAttributedString.Key.foregroundColor:defaultTextColor.withAlphaComponent(0.8), NSAttributedString.Key.font:unicodeFont as Any])
@@ -53,9 +56,19 @@ extension SafariExtensionViewController: NSTextViewDelegate {
         if (editor.string == "") {
             editor.textColor = defaultTextColor
             if (editor == unicodeTextView) {
-                editor.font = unicodeFont
+                unicodeTextView.font = unicodeFont
             } else {
-                editor.font = zawgyiFont
+                zawgyiTextView.font = zawgyiFont
+            }
+        } else {
+            if (editor == unicodeTextView) {
+                zawgyiTextView.string = ZUConvert.convertToZawgyi(editor.string)
+                zawgyiTextView.font = zawgyiFont
+
+            } else {
+                unicodeTextView.string = ZUConvert.convertToUnicode(editor.string)
+                unicodeTextView.font = unicodeFont
+
             }
         }
     }

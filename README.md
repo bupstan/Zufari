@@ -12,6 +12,7 @@ Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Uni
 ## Installation
 - Download the latest version [here](https://github.com/bupstan/Zufari/releases/)
 - Extract the zip file and open Zufari.app
+	- If the app fails to open, try Control + Clicking on the app and click open
 - After the app is open, launch **Safari**
 - Open preferences in Safari > Preferences - ⌘ ,
 - Click on **Extensions** tab

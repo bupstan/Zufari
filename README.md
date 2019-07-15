@@ -31,8 +31,10 @@ Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Uni
 
 ## Screenshots
 - Dark Mode
+
 ![Dark Mode](screenshots/A4EB65E6-9A64-485A-9A38-5713E9E49014.jpeg)
 - Light Mode
+
 ![Light Mode](screenshots/B7353193-CDF9-4306-B897-0310C11E6C26.jpeg)
 
 ## Known Issues
@@ -42,8 +44,7 @@ Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Uni
 Basically, it's a **Safari Extension** that is aimed for quick **Unicode <=> Zawgyi** conversions within **Safari** without opening a new tab or launching a separate application.
 
 ## Credits
-Unicode <=> Zawgyi conversion rules are referenced from Rabbit-Converter
-[Go to Rabbit-Converter](https://github.com/Rabbit-Converter/Rabbit)
+Unicode <=> Zawgyi conversion rules are referenced from [Rabbit-Converter](https://github.com/Rabbit-Converter/Rabbit)
 
 ## License
 Zufari is licensed under "GNU GENERAL PUBLIC LICENSE". [See LICENSE](https://github.com/bupstan/Zufari/blob/master/LICENSE) for details.

@@ -104,8 +104,8 @@
 		C4AF250C22DB0D6C00D3CCFE = {
 			isa = PBXGroup;
 			children = (
-				C4AF251722DB0D6C00D3CCFE /* ZUfari */,
-				C4AF252E22DB0E0000D3CCFE /* ZUfari Extension */,
+				C4AF251722DB0D6C00D3CCFE /* Zufari */,
+				C4AF252E22DB0E0000D3CCFE /* Zufari Extension */,
 				C4AF252B22DB0E0000D3CCFE /* Frameworks */,
 				C4AF251622DB0D6C00D3CCFE /* Products */,
 			);
@@ -120,7 +120,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4AF251722DB0D6C00D3CCFE /* ZUfari */ = {
+		C4AF251722DB0D6C00D3CCFE /* Zufari */ = {
 			isa = PBXGroup;
 			children = (
 				C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */,
@@ -130,7 +130,7 @@
 				C4AF251F22DB0D6D00D3CCFE /* Info.plist */,
 				C4AF252022DB0D6D00D3CCFE /* ZUfari.entitlements */,
 			);
-			path = ZUfari;
+			path = Zufari;
 			sourceTree = "<group>";
 		};
 		C4AF252B22DB0E0000D3CCFE /* Frameworks */ = {
@@ -141,7 +141,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4AF252E22DB0E0000D3CCFE /* ZUfari Extension */ = {
+		C4AF252E22DB0E0000D3CCFE /* Zufari Extension */ = {
 			isa = PBXGroup;
 			children = (
 				C413614922DBA0CE00691DB9 /* Fonts */,
@@ -155,7 +155,7 @@
 				C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */,
 				C4AF253B22DB0E0000D3CCFE /* ZUfari_Extension.entitlements */,
 			);
-			path = "ZUfari Extension";
+			path = "Zufari Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,12 +427,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HA59L48NC8;
-				INFOPLIST_FILE = ZUfari/Info.plist;
+				INFOPLIST_FILE = Zufari/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bupstan.ZUfari;
+				PRODUCT_BUNDLE_IDENTIFIER = bupstan.Zufari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -447,12 +447,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HA59L48NC8;
-				INFOPLIST_FILE = ZUfari/Info.plist;
+				INFOPLIST_FILE = Zufari/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bupstan.ZUfari;
+				PRODUCT_BUNDLE_IDENTIFIER = bupstan.Zufari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -464,13 +464,13 @@
 				CODE_SIGN_ENTITLEMENTS = "ZUfari Extension/ZUfari_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA59L48NC8;
-				INFOPLIST_FILE = "ZUfari Extension/Info.plist";
+				INFOPLIST_FILE = "Zufari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bupstan.ZUfari.ZUfari-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "bupstan.Zufari.Zufari-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,13 +483,13 @@
 				CODE_SIGN_ENTITLEMENTS = "ZUfari Extension/ZUfari_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA59L48NC8;
-				INFOPLIST_FILE = "ZUfari Extension/Info.plist";
+				INFOPLIST_FILE = "Zufari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bupstan.ZUfari.ZUfari-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "bupstan.Zufari.Zufari-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;

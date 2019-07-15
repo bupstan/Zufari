@@ -31,9 +31,9 @@ Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Uni
 
 ## Screenshots
 - Dark Mode
-![Dark Mode](https://github.com/bupstan/Zufari/releases/download/v0.1/Zufariv0.1-DarkMode.jpg)
+![Dark Mode](screenshots/A4EB65E6-9A64-485A-9A38-5713E9E49014.jpeg)
 - Light Mode
-![Light Mode](https://github.com/bupstan/Zufari/releases/download/v0.1/Zufariv0.1-LightMode.jpg)
+![Light Mode](screenshots/B7353193-CDF9-4306-B897-0310C11E6C26.jpeg)
 
 
 ## Why another converter?

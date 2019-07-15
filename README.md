@@ -35,6 +35,8 @@ Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Uni
 - Light Mode
 ![Light Mode](screenshots/B7353193-CDF9-4306-B897-0310C11E6C26.jpeg)
 
+## Known Issues
+- Delay when clicking on the extension button
 
 ## Why another converter?
 Basically, it's a **Safari Extension** that is aimed for quick **Unicode <=> Zawgyi** conversions within **Safari** without opening a new tab or launching a separate application.

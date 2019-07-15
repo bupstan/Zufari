@@ -1,6 +1,13 @@
 # Zufari
 Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Unicode** while using **Safari**
 
+## Features
+- Text conversion between **Unicode** and **Zawgyi**
+- Quick conversion within Safari on a Pop Over View
+- Supports Dark Mode 🌑
+
+## Requirement
+- macOS 10.14+ (Mojave and later)
 
 ## Installation
 - Download the latest version [here](https://github.com/bupstan/Zufari/releases/)
@@ -21,6 +28,13 @@ Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Uni
 	
 	**Example Case 2**: Copied text is in Zawgyi and wants to have Unicode
 		 - Paste the text into Zawgyi Text Field.
+
+## Screenshots
+- Dark Mode
+![Dark Mode](https://github.com/bupstan/Zufari/releases/download/v0.1/Zufariv0.1-DarkMode.jpg)
+- Light Mode
+![Light Mode](https://github.com/bupstan/Zufari/releases/download/v0.1/Zufariv0.1-LightMode.jpg)
+
 
 ## Why another converter?
 Basically, it's a **Safari Extension** that is aimed for quick **Unicode <=> Zawgyi** conversions within **Safari** without opening a new tab or launching a separate application.

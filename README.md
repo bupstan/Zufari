@@ -40,6 +40,7 @@ Zufari is a Safari Extension for a quick conversion between **Zawgyi** and **Uni
 
 ## Known Issues
 - Possible delay when clicking on the extension button
+- **(Major)** Extension UI not loading when the button is clicked
 
 ## Why another converter?
 Basically, it's a **Safari Extension** that is aimed for quick **Unicode <=> Zawgyi** conversions within **Safari** without opening a new tab or launching a separate application.

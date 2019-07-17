@@ -10,6 +10,7 @@
 		C413614022DB86B300691DB9 /* ZufariToolBar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */; };
 		C413614222DB9A2200691DB9 /* ZUConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413614122DB9A2200691DB9 /* ZUConvert.swift */; };
 		C413614B22DBA8F100691DB9 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413614A22DBA8F100691DB9 /* PlaceholderTextView.swift */; };
+		C43E828B22DC9A4D00DBD51E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43E828A22DC9A4D00DBD51E /* Colors.xcassets */; };
 		C4AF251922DB0D6C00D3CCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */; };
 		C4AF251B22DB0D6D00D3CCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */; };
 		C4AF252D22DB0E0000D3CCFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AF252C22DB0E0000D3CCFE /* Cocoa.framework */; };
@@ -54,6 +55,7 @@
 		C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZufariToolBar.pdf; sourceTree = "<group>"; };
 		C413614122DB9A2200691DB9 /* ZUConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZUConvert.swift; sourceTree = "<group>"; };
 		C413614A22DBA8F100691DB9 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		C43E828A22DC9A4D00DBD51E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C4AF251522DB0D6C00D3CCFE /* Zufari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zufari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AF251822DB0D6C00D3CCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AF251A22DB0D6D00D3CCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				C4AF253722DB0E0000D3CCFE /* script.js */,
 				C413613F22DB86B300691DB9 /* ZufariToolBar.pdf */,
 				C4AF253B22DB0E0000D3CCFE /* ZUfari_Extension.entitlements */,
+				C43E828A22DC9A4D00DBD51E /* Colors.xcassets */,
 			);
 			path = "Zufari Extension";
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				C4F0FFD522DBB30B00F76641 /* Pyidaungsu.ttf in Resources */,
 				C4F0FFD622DBB30B00F76641 /* Zawgyi-One.ttf in Resources */,
 				C413614022DB86B300691DB9 /* ZufariToolBar.pdf in Resources */,
+				C43E828B22DC9A4D00DBD51E /* Colors.xcassets in Resources */,
 				C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */,
 				C4AF253822DB0E0000D3CCFE /* script.js in Resources */,
 			);

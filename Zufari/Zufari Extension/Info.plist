@@ -33,12 +33,7 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
 		<key>SFSafariContentScript</key>
-		<array>
-			<dict>
-				<key>Script</key>
-				<string>script.js</string>
-			</dict>
-		</array>
+		<array/>
 		<key>SFSafariToolbarItem</key>
 		<dict>
 			<key>Action</key>
@@ -49,15 +44,6 @@
 			<string>ZufariToolBar.pdf</string>
 			<key>Label</key>
 			<string>Zufari</string>
-		</dict>
-		<key>SFSafariWebsiteAccess</key>
-		<dict>
-			<key>Allowed Domains</key>
-			<array>
-				<string>*.webkit.org</string>
-			</array>
-			<key>Level</key>
-			<string>Some</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>

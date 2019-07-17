@@ -17,7 +17,6 @@
 		C4AF253022DB0E0000D3CCFE /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF252F22DB0E0000D3CCFE /* SafariExtensionHandler.swift */; };
 		C4AF253222DB0E0000D3CCFE /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AF253122DB0E0000D3CCFE /* SafariExtensionViewController.swift */; };
 		C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253322DB0E0000D3CCFE /* SafariExtensionViewController.xib */; };
-		C4AF253822DB0E0000D3CCFE /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = C4AF253722DB0E0000D3CCFE /* script.js */; };
 		C4AF253E22DB0E0000D3CCFE /* Zufari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4AF252A22DB0E0000D3CCFE /* Zufari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C4F0FFD522DBB30B00F76641 /* Pyidaungsu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD422DBB2FC00F76641 /* Pyidaungsu.ttf */; };
 		C4F0FFD622DBB30B00F76641 /* Zawgyi-One.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F0FFD322DBB2FC00F76641 /* Zawgyi-One.ttf */; };
@@ -258,7 +257,6 @@
 				C413614022DB86B300691DB9 /* ZufariToolBar.pdf in Resources */,
 				C43E828B22DC9A4D00DBD51E /* Colors.xcassets in Resources */,
 				C4AF253522DB0E0000D3CCFE /* SafariExtensionViewController.xib in Resources */,
-				C4AF253822DB0E0000D3CCFE /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
